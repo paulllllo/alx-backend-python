@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Client Unittest Module."""
+"""Client Unittest Module"""
 from parameterized import parameterized, parameterized_class
 from client import GithubOrgClient
 import unittest
@@ -9,7 +9,7 @@ from fixtures import TEST_PAYLOAD
 
 
 class TestGithubOrgClient(unittest.TestCase):
-    """Implement all test cases for org function from the client script."""
+    """Function that covers all neccessary test cases"""
 
     @parameterized.expand([
         'google',
